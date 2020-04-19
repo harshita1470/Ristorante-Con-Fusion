@@ -59,7 +59,7 @@ body
 	{
 	p{
 		width: 98%;
-		height: 272px;
+		height: 290px;
 		font-size: 130%;
 		
 		}
@@ -72,6 +72,7 @@ body
 	.red
 	{
 		background-color: #DB7093;
+		font-color: white;
 	}
 	.blu
 	{
