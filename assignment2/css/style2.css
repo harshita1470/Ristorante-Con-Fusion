@@ -1,0 +1,201 @@
+body
+{
+	background-color: lightcyan;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#logo
+{
+	background-image: url('../image/images.png');
+	width: 90px;
+	height: 90px;
+}
+#header-nav
+{
+	
+	min-width: 100%;
+	border: 0;
+	border-radius: 0;
+	background-color: cornflowerblue;
+	margin: 0 -15px -20px -15px;
+}
+.cont
+{
+	min-width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+#nav-list a
+{
+	color: darkblue;
+	font-style: bold;
+	font-size: 1.3em;
+	font-family: Comic Sans MS;
+}
+#nav-list a:focus , #nav-list a:link
+{
+	text-decoration: none;
+}
+#nav-list a:hover
+{
+	background-color: #E7E7E7;
+}
+#nav-list li span
+{
+	padding-left: 8px;
+}
+.navbr a:focus, .navbr a:hover
+{
+	text-decoration: none;
+}
+h1
+{
+	margin: 0 0 0 10px;
+	color: black;
+	font-family: algerian;
+
+	text-shadow: currentColor;
+	font-size: 250%;
+}
+.navbr
+{
+	padding-top: 0;
+}
+p
+{
+	padding-left: 10px;
+	color: black;
+}
+
+#cert
+{
+  vertical-align: top;
+  padding-top: 2px;
+
+}
+#butn
+{
+	
+	border-color: darkblue;
+}
+.head
+{
+	text-align: center;
+	
+	font-family:bernard mt condensed;
+	padding-top: 30px;
+	font-size: 2.5em;
+	font-style: bold;
+}
+.element
+{
+	padding-top: 20px;
+	box-sizing: content-box;
+	padding-left: 80px;
+}
+#par1,#par2,#par3
+{
+	background-color: paleturquoise;
+	border:2px solid darkblue;
+	position: relative;
+    margin-right: 75px;
+    padding: 10px;
+    font-family: Comic Sans MS;
+    font-style: italic;
+    padding-top: 40px;
+}
+#sec1,#sec2,#sec3
+{
+	
+	border: 1px solid darkblue;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	font-size: 1.9em;
+	font-style: bold ;
+	width: 35%;
+	text-align: center;
+	font-family: Forte;
+	color: darkblue;
+	}
+#par1
+{
+	
+}
+#sec1
+{
+  background-color: aquamarine;
+}
+#par2
+{
+	
+	
+}
+#sec2
+{
+	background-color: turquoise;
+	
+}
+#par3
+{
+	
+	
+}
+#sec3
+{
+	background-color: deepskyblue;
+	
+}
+
+@media(min-width: 992px)
+{
+	
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+	h1
+	{
+		font-size: 210%;
+	}
+    #par1,#par2
+	{
+		margin-right: 30px;
+		
+	}
+	#par3
+	{
+		width: 87%;
+		margin-top: 15px;
+	}
+}
+@media(max-width:767px)
+{
+	h1
+	{
+		font-size: 160%;
+	}
+	.navbar-header
+	{
+		margin-bottom: 10px;
+	}
+	#nav-list a
+	{
+		text-align: center;
+	}
+	#nav-list li span
+    {
+    	padding-right: 10px;
+    }
+    #par1,#par2,#par3
+    {
+    	margin-bottom: 15px;
+    }
+}
+@media(max-width:479px )
+{
+	h1
+	{
+		font-size: 140%;
+	}
+}
