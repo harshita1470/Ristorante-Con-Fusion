@@ -1,0 +1,24 @@
+{
+  "name": "coursera.test",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn git node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshita1470/coursera.test.git"
+  },
+  "author": "Harshita Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshita1470/coursera.test/issues"
+  },
+  "homepage": "https://github.com/harshita1470/coursera.test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
